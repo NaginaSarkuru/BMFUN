@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayingGame3"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4.0"
+        android:background="@android:color/black"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/countLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Q: 1/10"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/scoreLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Score: 0"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+         <TextView
+            android:id="@+id/text_view_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="15dp"
+            android:text="00:00"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+
+        <!--<ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:max="5"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+        </ProgressBar>-->
+        <!-- <a> TIME for per question</a> -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.0"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/picLabel"
+            android:layout_width="0dp"
+            android:layout_height="255dp"
+            android:layout_weight="1.0"
+            android:background="#000000"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4.0"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/questionLabel"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Statement"
+            android:background="@android:color/black"
+            android:textColor="#ffffff"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3.0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnFalse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@android:color/holo_red_light"
+            android:text="False"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:id="@+id/btnTrue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_light"
+            android:layout_weight="1.0"
+            android:text="True"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

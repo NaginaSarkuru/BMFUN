@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@android:color/holo_purple"
+        android:text="PERIBAHASA"/>
+
+    <Button
+        android:id="@+id/button_NEXT2"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="201dp"
+        android:background="@android:color/holo_purple"
+        android:text="SIMPULAN BAHASA"/>
+
+
+    <Button
+        android:id="@+id/button_NEXT3"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="182dp"
+        android:background="@android:color/holo_purple"
+        android:text="PENJODOH BILANGAN"/>
+
+</RelativeLayout>
